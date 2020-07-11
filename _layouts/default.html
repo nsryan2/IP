@@ -1,17 +1,23 @@
 <!DOCTYPE html>
 <html>
-    <body id="page-top" class="index">
 
+<head>
+  <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body id="page-top" class="index">
+  <header>
     {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
+  </header>
+  
+  <div class="page-content">
+    <div class="wrapper">
+      {{ content }}
     </div>
+  </div>
 
-    {% include footer.html %}
+  {% include footer.html %}
 
-  </body>
+</body>
 
 </html>
