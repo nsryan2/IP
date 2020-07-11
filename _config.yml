@@ -1,5 +1,16 @@
+# Site settings
+title: IPI
+email: email@gmail.com
+description: "Website for"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+twitter_username: 
+github_username: 
+logo: "/img/logo.png"
+
 blank_issues_enabled: false
 contact_links:
   - name: GitHub Community Support
     url: https://github.community/
     about: Please ask and answer questions here.
+
